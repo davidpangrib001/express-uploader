@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/Xinz-Team/XinzBot/main/media/Itsuki.jpg" alt="XINZ BOT" width="128" height="128"/>
+<img src="https://telegra.ph/file/6bae97cb104c4cbc31d91.jpg" alt="ONE BOT" width="128" height="128"/>
 </p>
 <p align="center">
 <a href="#"><img title="Express Uploader" src="https://img.shields.io/badge/Express Uploader-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
