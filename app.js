@@ -59,11 +59,11 @@ app.get('/', (req, res) => {
 app.post('/upload', upload.single('file'), (req, res) => {
     if (!req.file.path) return res.status(400).json({
         status: false,
-        message: "No file uploaded"
+        message: "Tidak Ada Media Yang Di Upload :/"
     })
     res.status(200).json({
         status: true,
-        message: "Created by Fatih Arridho",
+        message: "Created by David",
         result: {
             originalname: req.file.originalname,
             encoding: req.file.encoding,
@@ -81,7 +81,7 @@ app.post('/upload', upload.single('file'), (req, res) => {
 app.post('/multi-upload', upload.array('files', 10), (req, res) => {
     if (!req.files) return res.status(400).json({
         status: false,
-        message: "No file uploaded"
+        message: "Tidak Ada Media Yang Di Upload :/"
     })
     const result = []
     req.files.forEach(v => {
@@ -95,7 +95,7 @@ app.post('/multi-upload', upload.array('files', 10), (req, res) => {
     });
     res.status(200).json({
         status: true,
-        message: "Created by Fatih Arridho",
+        message: "Created by David",
         result: result
     })
 })
@@ -104,7 +104,7 @@ app.post('/multi-upload', upload.array('files', 10), (req, res) => {
 app.use(function (req, res, next) {
     res.status(404).json({
         status: false,
-        message: "Page not found"
+        message: "Halaman Tidak Di Temukan!"
     })
 })
 
